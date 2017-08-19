@@ -18,5 +18,10 @@
   "bugs": {
     "url": "https://github.com/angelilton/pantanal-app/issues"
   },
-  "homepage": "https://github.com/angelilton/pantanal-app#readme"
+  "homepage": "https://github.com/angelilton/pantanal-app#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-pug": "^3.3.0",
+    "gulp-stylus": "^2.6.0"
+  }
 }
