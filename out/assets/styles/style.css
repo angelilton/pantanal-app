@@ -1,8 +1,30 @@
 /* colors */
+/* box model */
 * {
   box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
 }
-/* header */
+html,
+body {
+  height: 100%;
+}
+body {
+  display: flex;
+  flex-direction: column;
+}
+.main {
+  flex: 1;
+}
+/* dev mode */
+.container {
+  border: 1px dashed;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+/* modules */
 .header {
   width: 100%;
   background-color: #f06;
@@ -36,14 +58,6 @@
   display: inline-block;
   padding: 10px;
 }
-.container {
-  border: 1px dashed;
-  width: 100%;
-  max-width: 800px;
-  margin: 0 auto;
-  display: flex;
-  flex-wrap: wrap;
-}
 .profile {
   border: 1px dashed;
   margin-left: auto;
@@ -66,5 +80,13 @@
   display: inline-block;
   color: #fff;
 }
-/* main */
-/* footer */
+.footer {
+  height: 55px;
+  background-color: #212121;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icon-heart {
+  fill: #f06;
+}
