@@ -36,7 +36,7 @@ gulp.task('connect', function() {
     })
 })
 
-gulp.task('dev',['watch','connect'])
+gulp.task('default',['watch','connect'])
 
 gulp.task('build',['pug','stylus','imagemin'])
 

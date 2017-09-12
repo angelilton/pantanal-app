@@ -15,6 +15,11 @@ body {
 .main {
   flex: 1;
 }
+.container-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 /* dev mode */
 .container {
   border: 1px dashed;
@@ -83,9 +88,6 @@ body {
 .footer {
   height: 55px;
   background-color: #212121;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 .icon-heart {
   fill: #f06;
