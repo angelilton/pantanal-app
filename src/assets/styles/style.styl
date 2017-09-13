@@ -1,47 +1,6 @@
-/* colors */
-highlight-color = #ff0066
-secondary-color = #212121
-bg-color = #333
-
-/* box model */
-* {
-    box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
-}
-
-html, body {
-    height 100%;
-}
-
-body {
-    display: flex;
-    flex-direction: column;
-
-}
-
-.main {
-    flex: 1;
-}
-
-.container-center {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-/* dev mode */
-border()
-    border: 1px dashed;
-
-.container {
-    border()
-    width: 100%;
-    max-width: 800px;
-    margin: 0 auto;
-    display: flex;
-    flex-wrap: wrap;
-}
-
 /* modules */
+@import 'modules/global.styl'
 @import 'modules/header.styl'
+@import 'modules/profile.styl'
+@import 'modules/projects.styl'
 @import 'modules/footer.styl'
