@@ -17,7 +17,7 @@ body {
   flex: 1;
 }
 .container {
-  border: 1px dashed;
+  border: 0px dashed;
   width: 100%;
   max-width: 800px;
   margin: 0 auto;
@@ -49,10 +49,10 @@ body {
   background-color: #f06;
 }
 .menu {
-  border: 1px dashed;
+  border: 0px dashed;
   display: flex;
   align-items: center;
-  border: 1px dashed;
+  border: 0px dashed;
 }
 @media screen and (max-width: 400px) {
   .menu {
@@ -79,7 +79,7 @@ body {
   padding: 10px;
 }
 .profile-header {
-  border: 1px dashed;
+  border: 0px dashed;
   margin-left: auto;
 }
 @media screen and (max-width: 400px) {
@@ -104,7 +104,7 @@ body {
   width: 100%;
   max-width: 500px;
   text-align: center;
-  border: 1px dashed;
+  border: 0px dashed;
 }
 .profile-img {
   border-radius: 50%;
@@ -115,7 +115,7 @@ body {
   width: 100%;
 }
 .projects-list {
-  border: 1px dashed;
+  border: 0px dashed;
   width: 100%;
   display: flex;
   flex-wrap: wrap;
@@ -124,7 +124,7 @@ body {
   margin: 30px 0;
 }
 .project {
-  border: 1px dashed;
+  border: 0px dashed;
   width: calc(50% - 10px);
   background-color: #fff;
   display: flex;

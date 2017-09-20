@@ -1,0 +1,24 @@
+{
+  "projects":[
+    {
+      "name":"page-COD3R",
+      "description":"site da cod3r copia para praticar",
+      "stars":"5"
+    },
+    {
+      "name":"onepagebootstrap",
+      "description":"uma page web simples feita com boostrap 3 para aplicar os conhecimento aprendidos. https://angelilton.github.io/onepagebootstrap/ ",
+      "stars":"15"
+    },
+    {
+      "name":"copy-spotify-page",
+      "description":"No description, website, or topics provided.",
+      "stars":"0"
+    },
+    {
+      "name":"game-whith-js",
+      "description":"game create for skill test whith js",
+      "stars":"3"
+    }
+  ]
+}
