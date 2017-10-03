@@ -24,10 +24,14 @@ body {
   display: flex;
   flex-wrap: wrap;
 }
+.flipped {
+  height: 100%;
+}
 .container-center {
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 100%;
 }
 .heading-lv1 {
   color: #fff;
