@@ -6,6 +6,7 @@ const imagemin = require('gulp-imagemin');
 const data = require('gulp-data');
 const babel = require('gulp-babel');
 const lint = require('gulp-eslint');
+const stylint = require('gulp-stylint');
 
 gulp.task('pug', () => {
     gulp.src('./src/*.pug')
@@ -15,12 +16,19 @@ gulp.task('pug', () => {
         .pipe(connect.reload())
 })
 
+gulp.task('stylint', () => {
+    gulp.src(['./src/assets/styles/*.styl','./src/assets/styles/modules/*.styl'])
+        .pipe(stylint({config: '.stylintrc'}))
+        .pipe(stylint.reporter())
+})
+
 gulp.task('stylus', () => {
     gulp.src('./src/assets/styles/*.styl')
         .pipe(stylus())
         .pipe(gulp.dest('./out/assets/styles/'))
         .pipe(connect.reload())
 })
+
 
 gulp.task( 'lint', () => {
     gulp.src('./src/assets/scripts/*.js')
